@@ -10,6 +10,8 @@ import java.time.LocalDateTime;
 @Document(collectionName = "emergencias") // Define que esta clase pertenece a la colección "emergencias"
 public class Emergencia {
     @Id // Marca este campo como el identificador único del documento
+    private String id;
+    // Cambié el nombre de la variable a idEmergencia para mayor claridad
     private String idEmergencia;
     private String idDispositivo;
     private String tipoEmergencia;
