@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignorar todos los archivos JSON dentro de resources
+src/main/resources/*.json
+
